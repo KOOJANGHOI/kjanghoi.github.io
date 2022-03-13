@@ -10,6 +10,7 @@ tags: [ComputerScience]
 A sorting algorithm using insertion. 
 
 Given a key and a sorted list of keys, insert the key into the sorted list preserving the sorted order.  
+
 e.g) Insert 3 into <1, 2, _,  4, 5, 6>
 
 ![7.1](/assets/images/algorithm/2.1.png)

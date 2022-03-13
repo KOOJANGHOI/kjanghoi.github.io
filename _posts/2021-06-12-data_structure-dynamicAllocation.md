@@ -2,7 +2,7 @@
 layout: post
 title: Dynamic Allocation
 subtitle: 
-categories: [DataStructure]
+categories: [Data structure]
 tags: [ComputerScience]
 ---
 

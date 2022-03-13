@@ -2,7 +2,7 @@
 layout: post
 title: Heap
 subtitle: 
-categories: [DataStructure]
+categories: [Data structure]
 tags: [ComputerScience]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: AVL Tree
 subtitle: 
-categories: [DataStructure]
+categories: [Data structure]
 tags: [ComputerScience]
 ---
 

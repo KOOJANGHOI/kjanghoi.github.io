@@ -2,7 +2,7 @@
 layout: post
 title: Binary Search Tree
 subtitle: 
-categories: [DataStructure]
+categories: [Data structure]
 tags: [ComputerScience]
 ---
 

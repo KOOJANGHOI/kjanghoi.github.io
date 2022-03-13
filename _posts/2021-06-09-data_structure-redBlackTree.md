@@ -2,7 +2,7 @@
 layout: post
 title: Red Black Tree
 subtitle: 
-categories: [DataStructure]
+categories: [Data structure]
 tags: [ComputerScience]
 ---
 

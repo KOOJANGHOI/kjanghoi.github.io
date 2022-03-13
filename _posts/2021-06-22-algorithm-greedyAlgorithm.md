@@ -7,14 +7,13 @@ tags: [ComputerScience]
 ---
 
 ### Introduction
-A greedy algorithm always makes the choice that looks best at the moment. 
+: An algorithm that always makes the choice that looks best at the moment. 
 
 It makes a locally optimal choice in the hope that this choice will lead to a globally optimal solution. 
+- It makes the choice before the subproblems are solved. 
 
-=> It makes the choice before the subproblems are solved. 
 
-
-#### An activity selection problem 
+### An activity selection problem 
 : To select a maximum-size subset of mutually compatible activities.  
 
 - A set of activities: S = {a1, a2, ..., an} 
@@ -29,7 +28,7 @@ It makes a locally optimal choice in the hope that this choice will lead to a gl
 
 ![7.1](/assets/images/algorithm/8.3.png)
 
-**Optimal substructure**
+#### Optimal substructure
 
 ![7.1](/assets/images/algorithm/8.4.png)
 

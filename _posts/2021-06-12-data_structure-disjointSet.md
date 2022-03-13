@@ -2,7 +2,7 @@
 layout: post
 title: Disjoint Set
 subtitle: 
-categories: [DataStructure]
+categories: [Data structure]
 tags: [ComputerScience]
 ---
 

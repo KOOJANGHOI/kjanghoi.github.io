@@ -23,32 +23,31 @@ e.g) binary heap
 : A[PARENT(i)] <= A[i] 
 
 
-**Heap stored in an array**
+#### Heap stored in an array
 
 ![7.1](/assets/images/algorithm/5.2.png)
 
-
 #### Height of a heap
-: Θ(logn)
-Since a heap of n elements is based on a complete binary tree 
+: Θ(logn) Since a heap of n elements is based on a complete binary tree 
 
- **Maintaining the heap property : Max-heapify**
-: Let the value at the node “”float down” in the max-heap so that the subtree rooted at the node becomes a max-heap
+#### Max-heapify
+: Maintaining the heap property
+
+Let the value at the node “float down” in the max-heap so that the subtree rooted at the node becomes a max-heap
 
 ![7.1](/assets/images/algorithm/5.3.png)
 
-**Running time of max-heapify**
+**Running time**
 : T(n) where n is the number of nodes in subtree
 
-T(n)
-: O(logn)
-= #height * time to exchange values
-= O(logn) * Θ(1) 
-
-     
+- O(logn)
+- #height * time to exchange values
+- O(logn) * Θ(1) 
 
 #### Building a heap
-: Call MAX-HEAPIFY(A, i) at the rightmost node that has the child from the bottom. i = Math.floor(A.length / 2)
+: Call MAX-HEAPIFY(A, i) at the rightmost node that has the child from the bottom.
+<br> 
+(i = Math.floor(A.length / 2))
 
 ![7.1](/assets/images/algorithm/5.4.png)
 
@@ -63,7 +62,7 @@ T(n)
 
 #### Running time
 **upper bound**
-: Each call to MAX-HEAPIFY costs O(lgn) time, and there are O(n) such calls, Thus the running time is O(nlogn)
+: Each call to MAX-HEAPIFY costs O(logn) time, and there are O(n) such calls, Thus the running time is O(nlogn)
 
 **tighter bound**
 
@@ -72,7 +71,7 @@ T(n)
 ![7.1](/assets/images/algorithm/5.10.png)
 
 ### Heapsort algorithm
-- Running time is O(nlgn) like merge sort
+- Running time is O(nlogn) like merge sort
 - Heapsort  sorts in place like insertion sort
 
 

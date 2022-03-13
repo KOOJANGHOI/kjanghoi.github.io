@@ -2,7 +2,7 @@
 layout: post
 title: Sorting
 subtitle: 
-categories: [DataStructure]
+categories: [Data structure]
 tags: [ComputerScience]
 ---
 
